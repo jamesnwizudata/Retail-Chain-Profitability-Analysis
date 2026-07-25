@@ -14,6 +14,8 @@ Business Problem
 
 The VP of Sales came to me with a concern: overall profit for the year was running lower than expected, even though sales volume looked fine. She didn't have a theory for why, just a sense that something wasn't adding up, and asked me to dig into the transaction data to figure out where the business was actually losing money and what was driving it.
 
+<img width="607" height="433" alt="RegionPieGraph" src="https://github.com/user-attachments/assets/4dcf971f-1391-47bf-a3d6-0ad80e791dcb" />
+
 Methodology
 
 Power BI Desktop: primary platform for data modeling, calculation, and dashboard delivery.
@@ -41,6 +43,8 @@ Recommendation: Cap discretionary discounting at 20% for the affected product li
 Finding 2: A single unapproved transaction distorted performance reporting at multiple levels. One order, an $8,000 piece of equipment discounted 50%, lost $3,840 in profit. That one order was large enough that it initially looked like evidence of a struggling region and a weak sales day. Once isolated, it turned out to be one transaction, not a regional or weekly trend. This is a control gap, not a market problem: nothing in the current process stops a large discount like this from going through unreviewed.
 
 Recommendation: Require manager approval for any discount above 20-30% on high-value orders. This is a low-cost operational control, not a pricing or market strategy change, and would have caught this specific transaction before it affected the bottom line.
+
+<img width="1317" height="786" alt="Profit Analyst rec" src="https://github.com/user-attachments/assets/f512f5c3-38d2-422e-b521-aa96b6d3d177" />
 
 Next Steps to Implementation
 
