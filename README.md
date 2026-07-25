@@ -2,11 +2,17 @@
 
 Executive Summary
 
-The company is profitable overall (8.69% margin), but that number hides real, identifiable profit loss driven largely by unmanaged discounting. This analysis modeled transaction-level sales data in Power BI to pinpoint exactly where that profit was going, verifying each finding down to the individual transaction before recommending action. The recommended next steps are to cap discounting above 20% on the affected product lines and require manager approval for large discounts on high-value orders. The impact: discounts of 21% or higher erased $13,753 in profit during the analyzed period, nearly matching the company's total profit of $14,635, and a single unapproved transaction discounted 50% accounted for $3,840 of that loss on its own.
+Using Power BI, Power Query, and DAX, I modeled transaction-level sales data into a profitability dashboard to find out exactly where this retail chain was losing profit. After finding that discounts of 21% or higher were erasing $13,753 in profit, nearly matching the company's total profit of $14,635, I recommend the following actions to recover it:
 
-The Problem Statement
+-Cap discretionary discounts at 20% on the affected product lines
 
-Aggregate profitability metrics can look healthy while masking specific, fixable sources of loss. This project set out to answer three questions: where is the company losing profit that it doesn't need to lose, is that loss a broad pattern or a handful of outlier transactions, and what specific, low-risk action would recover it. The goal was concrete, quantified recommendations rather than general advice like "increase sales" or "cut costs."
+-Require manager approval for discounts above 20-30% on high-value orders
+
+-Move this analysis to a live, refreshed dashboard so leadership can monitor discount-driven profit loss on an ongoing basis
+
+Business Problem
+
+The VP of Sales came to me with a concern: overall profit for the year was running lower than expected, even though sales volume looked fine. She didn't have a theory for why, just a sense that something wasn't adding up, and asked me to dig into the transaction data to figure out where the business was actually losing money and what was driving it.
 
 Methodology
 
